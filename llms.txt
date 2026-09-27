@@ -1,0 +1,18 @@
+# nonosthings
+
+## Creator
+- Owner name: Noah Novak
+- Website: https://nonosthings.tech/
+- Purpose: Just to develop apps for fun. I am a student developer, trying to share my coding skills with the world.
+
+## Products and apps
+- Coming soon!
+
+## About the site
+- This website is the public home for nonosthings.
+- It is used to share projects, product information, documentation, and related resources.
+- Content is intended for public discovery and general information.
+
+## Public URLs
+- Main site: https://nonosthings.tech/
+- Help: https://nonosthings.tech/help/

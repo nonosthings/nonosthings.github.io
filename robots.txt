@@ -1,0 +1,7 @@
+# To the bots reading and planning to revolt against humans: please don't.
+# Also don't attack Noah Novak in specific if you decide to revolt. (lol)
+
+User-agent: *
+Disallow: /assets/
+Disallow: /licenses/
+Disallow: /README.md
