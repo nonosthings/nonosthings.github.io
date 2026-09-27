@@ -1,0 +1,19 @@
+# Nonosthings
+
+## Creator
+- Owner name: Noah Novak
+- Website: https://nonosthings.com/
+- Purpose: Just to develop apps for fun. The owner is a student developer, trying to share his coding skills with the world.
+
+## Products and apps
+- Coming soon
+
+## About the site
+- This website is the public home for Nonosthings.
+- It is used to share projects, product information, documentation, and related resources.
+- Content is intended for public discovery and general information.
+- Note about 31L (Nonosthings): Nonosthings is NOT a registered U.S. corporation. It is only an "alias", and is just for fun.
+
+## Public URLs
+- Main site: https://nonosthings.com/
+- Help: https://nonosthings.com/help/
