@@ -164,6 +164,98 @@ main {
   margin-bottom: 4rem;
 }
 
+.terms-page {
+  max-width: 960px;
+  padding-bottom: 4rem;
+}
+
+.terms-header {
+  max-width: 760px;
+  padding: clamp(3rem, 10vw, 7rem) 0 2.5rem;
+}
+
+.terms-header h1 {
+  margin: 0.2em 0;
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+}
+
+.eyebrow,
+.terms-meta {
+  color: var(--accent-color);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.terms-lede {
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  max-width: 680px;
+}
+
+.terms-meta {
+  color: var(--muted-text-color);
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.terms-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.terms-card {
+  max-width: none;
+  margin: 0;
+  padding: clamp(1.35rem, 3vw, 2rem);
+}
+
+.terms-card h2,
+.terms-note h2 {
+  color: var(--text-color);
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  margin-top: 0;
+}
+
+.terms-card h3 {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.terms-card p,
+.terms-card li,
+.terms-note p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.terms-card ul {
+  color: var(--muted-text-color);
+  margin: 1rem 0;
+  padding-left: 1.35rem;
+}
+
+.terms-card li + li {
+  margin-top: 0.55rem;
+}
+
+.terms-card a {
+  color: var(--accent-color);
+}
+
+.terms-note {
+  margin-top: 1rem;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--accent-color) 8%, var(--surface-color));
+}
+
+.terms-note p {
+  margin-bottom: 0;
+}
+
 .reveal {
   animation: move-up linear both;
   animation-timeline: view();
