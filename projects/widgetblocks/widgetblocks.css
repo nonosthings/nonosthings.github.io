@@ -1,8 +1,8 @@
-.infoblocks-page { --ib-blue: #8bcaff; --ib-pink: #efb7cf; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-.infoblocks-page a { color: inherit; }
-.infoblocks-page a:focus-visible, .infoblocks-page summary:focus-visible { outline: 3px solid var(--ib-blue); outline-offset: 5px; border-radius: 5px; }
-.infoblocks-page .navbar { max-width: 1200px; }
-.infoblocks-page main, .infoblocks-page .ib-footer { max-width: 1120px; }
+.widgetblocks-page { --ib-blue: #8bcaff; --ib-pink: #efb7cf; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.widgetblocks-page a { color: inherit; }
+.widgetblocks-page a:focus-visible, .widgetblocks-page summary:focus-visible { outline: 3px solid var(--ib-blue); outline-offset: 5px; border-radius: 5px; }
+.widgetblocks-page .navbar { max-width: 1200px; }
+.widgetblocks-page main, .widgetblocks-page .ib-footer { max-width: 1120px; }
 .skip-link { position: fixed; top: -80px; left: 24px; padding: 14px 20px; background: #fff; color: #10131d !important; z-index: 10; }
 .skip-link:focus { top: 16px; }
 .ib-hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 64px; padding: 88px 0 76px; }
@@ -43,7 +43,7 @@
 .widget-preview figcaption { text-align: center; color: var(--muted-text-color); font-size: 11px; line-height: 1.8; margin: 28px 0 0; }
 .widget-preview figcaption > span { font-size: 10px; opacity: .8; }
 .ib-section { padding: 68px 0; border-top: 1px solid var(--border-color); }
-.infoblocks-page h2 { color: var(--text-color); font-weight: 550; font-size: clamp(30px, 4vw, 44px); line-height: 1.16; letter-spacing: -.04em; margin: 0 0 18px; }
+.widgetblocks-page h2 { color: var(--text-color); font-weight: 550; font-size: clamp(30px, 4vw, 44px); line-height: 1.16; letter-spacing: -.04em; margin: 0 0 18px; }
 .section-intro > p:last-child { font-size: 15px; }
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
 .feature-card { background: var(--surface-color); border: 1px solid var(--border-color); border-radius: 24px; padding: 28px; }
@@ -116,7 +116,7 @@
     .policy-summary { padding: 20px; }
 }
 @media (max-width: 380px) {
-    .infoblocks-page .navbar a { padding-inline: 10px; font-size: 13px; }
+    .widgetblocks-page .navbar a { padding-inline: 10px; font-size: 13px; }
     .sample-widget { padding: 15px; border-radius: 20px; }
     .sample-time { font-size: 43px; }
     .sample-heading { font-size: 22px; }
