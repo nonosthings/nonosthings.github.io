@@ -6,7 +6,7 @@
 - Purpose: Just to develop apps for fun. I am a student developer, trying to share my coding skills with the world.
 
 ## Products and apps
-- Coming soon!
+- WidgetBlocks, an iOS app that lets users build their own widgets for their home screen.
 
 ## About the site
 - This website is the public home for nonosthings.
@@ -15,4 +15,3 @@
 
 ## Public URLs
 - Main site: https://nonosthings.tech/
-- Help: https://nonosthings.tech/help/
