@@ -365,7 +365,7 @@
 /* Policy & Support Pages */
 .policy-main {
   max-width: 760px;
-  margin-inline: 0;
+  margin-inline: auto;
   padding-block: clamp(40px, 7vh, 72px);
 }
 

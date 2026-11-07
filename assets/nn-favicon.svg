@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="nn">
+  <rect width="512" height="512" rx="104" fill="#ffffff"/>
+  <g transform="translate(66, 166)" fill="#000000">
+    <path d="M0 6h57v19c11-16 29-25 53-25 43 0 74 28 74 73v107h-58V84c0-23-13-37-34-37-21 0-34 15-34 38v95H0V6Z"/>
+    <path d="M195 6h57v19c11-16 29-25 53-25 43 0 74 28 74 73v107h-58V84c0-23-13-37-34-37-21 0-34 15-34 38v95h-58V6Z"/>
+  </g>
+</svg>
