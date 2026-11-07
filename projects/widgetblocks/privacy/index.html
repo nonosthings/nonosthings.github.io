@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WidgetBlocks does not collect personal data. Learn how widget designs, selected photos, calendar events, and reminders are handled on your device.">
-    <meta name="theme-color" content="#f6f8fb">
+    <meta name="color-scheme" content="light dark">
+        <meta name="theme-color" content="#f6f8fb">
     <link rel="canonical" href="https://nonosthings.tech/projects/widgetblocks/privacy/">
     <link rel="icon" type="image/png" href="../icon.png">
-    <link rel="stylesheet" href="../../../style.css">
-    <link rel="stylesheet" href="../widgetblocks.css">
-    <script src="../../../assets/theme.js"></script>
+    <link rel="stylesheet" href="../../../style.css?v=3">
+    <link rel="stylesheet" href="../widgetblocks.css?v=3">
+    <script src="../../../assets/theme.js?v=3"></script>
+    <script src="../../../assets/motion.js?v=3"></script>
     <title>WidgetBlocks Privacy | nonosthings</title>
 </head>
 <body class="widgetblocks-page">
@@ -53,7 +55,7 @@
     </nav>
 
     <main id="main" class="policy-main">
-        <header>
+        <header data-reveal>
             <div class="app-identity">
                 <img src="../icon.png" alt="WidgetBlocks icon" width="48" height="48">
                 <span>WidgetBlocks <span class="byline">by nonosthings</span></span>
@@ -135,10 +137,12 @@
     </main>
 
     <footer class="ib-footer">
-        <a class="footer-brand" href="../../../">
-            <img src="../../../assets/nn-logo.svg" alt="nn" width="26" height="12">
-            <span>Made by nonosthings</span>
-        </a>
+        <div class="footer-id">
+            <a class="footer-brand" href="../../../">
+                <img src="../../../assets/nn-logo.svg" alt="nn" width="26" height="12">
+                <span>Made by nonosthings</span>
+            </a>
+        </div>
         <div class="footer-links">
             <a href="../">WidgetBlocks</a>
             <a href="../help/">Support</a>

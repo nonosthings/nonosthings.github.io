@@ -5,11 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Noah Novak is a free-time software developer.">
+        <meta name="color-scheme" content="light dark">
         <meta name="theme-color" content="#f6f8fb">
         <link rel="canonical" href="https://nonosthings.tech/">
         <link rel="icon" type="image/svg+xml" href="./assets/nn-favicon.svg">
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <script src="./assets/theme.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css?v=3">
+        <script src="./assets/theme.js?v=3"></script>
+        <script src="./assets/motion.js?v=3"></script>
         <title>nonosthings</title>
     </head>
 
@@ -57,7 +59,7 @@
 
         <main id="main">
             <section class="studio-hero" aria-labelledby="studio-title">
-                <div>
+                <div data-reveal="stagger">
                     <h1 id="studio-title">Welcome to nonosthings.</h1>
                     <p class="studio-lede">I'm Noah, a computer science student who also makes software for fun. BTW I'm
                         not a registered corporation, I just do software development for fun.</p>
@@ -70,42 +72,45 @@
             </section>
 
             <section class="studio-section" aria-labelledby="projects-title">
-                <span class="section-label">Things I made</span>
+                <h2 id="projects-title">Things I made</h2>
 
-                <div class="project-showcase">
+                <div class="project-showcase" data-reveal="stagger">
                     <div>
                         <div class="project-header">
-                            <img src="./projects/widgetblocks/icon.png" alt="WidgetBlocks icon" width="52" height="52">
+                            <img src="./projects/widgetblocks/icon.png" alt="WidgetBlocks icon" width="56" height="56">
                             <div class="project-title-group">
                                 <h3>WidgetBlocks</h3>
                                 <span>Available on the App Store</span>
                             </div>
                         </div>
                         <p>Create your own home screen and lock screen widgets.</p>
-                        <ul class="project-specs" aria-label="Supported platforms and capabilities">
-                            <li>iOS</li>
-                            <li>iPadOS</li>
-                            <li>macOS</li>
-                            <li>tvOS</li>
-                            <li>visionOS</li>
-                            <li>No account required</li>
-                            <li>Local storage</li>
-                        </ul>
                         <div class="button-row">
                             <a class="btn-primary" href="./projects/widgetblocks/">Learn more</a>
                             <a class="btn-secondary" href="./projects/widgetblocks/privacy/">Privacy policy</a>
                             <a class="text-link" href="./projects/widgetblocks/help/">Get support</a>
                         </div>
                     </div>
+                    <ul class="project-specs" aria-label="Supported platforms and capabilities">
+                        <li>iOS</li>
+                        <li>iPadOS</li>
+                        <li>macOS</li>
+                        <li>tvOS</li>
+                        <li>visionOS</li>
+                        <li>No account required</li>
+                        <li>Local storage</li>
+                    </ul>
+                </div>
             </section>
         </main>
 
         <footer>
-            <a class="footer-brand" href="./">
-                <img src="./assets/nn-logo.svg" alt="nn" width="26" height="12">
-                <span>nonosthings</span>
-            </a>
-            <p class="footer-tribute">For Starsky 🐶🕊️❤️</p>
+            <div class="footer-id">
+                <a class="footer-brand" href="./">
+                    <img src="./assets/nn-logo.svg" alt="nn" width="26" height="12">
+                    <span>nonosthings</span>
+                </a>
+                <p class="footer-tribute">For Starsky 🐶🕊️❤️</p>
+            </div>
             <div class="footer-links">
                 <a href="./projects/widgetblocks/">WidgetBlocks</a>
                 <a href="./projects/widgetblocks/privacy/">Privacy</a>
